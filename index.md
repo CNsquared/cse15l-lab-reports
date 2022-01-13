@@ -19,7 +19,7 @@ Hello World!
 
 Oh shoot we doing images now thats even crazier
 
-![Image](https://wallpaperaccess.com/full/3518234.jpg)	
+![Image](https://media.discordapp.net/attachments/583129512397504513/930601969209454642/unknown.png)	
 
 Can it pull from Discord
 ![Image](https://images-ext-1.discordapp.net/external/hfvJ651F3kBDzcRx-Oi5eB9UifvYQpdSoQU4lVe0OHI/https/wallpaperaccess.com/full/3518234.jpg?width=2078&height=1169)
