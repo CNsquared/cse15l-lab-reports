@@ -1,10 +1,9 @@
-Hello World!
+## CS 15L Winter 2022
+>Alex Oshima
 
-# Hey look I'm going to do formatting -
-## Are you ready?
-*Its like Discord*
-**because they also use markdown**
-***Isnt that crazy***
+**Lab Reports**
+
+[Lab Report One](lab-report-1-week-2.md)
 
 [Test Page](https://cnsquared.github.io/cse15l-lab-reports/testFile.html)
 
