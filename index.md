@@ -23,3 +23,9 @@ Oh shoot we doing images now thats even crazier
 
 Can it pull from Discord
 ![Image](https://images-ext-1.discordapp.net/external/hfvJ651F3kBDzcRx-Oi5eB9UifvYQpdSoQU4lVe0OHI/https/wallpaperaccess.com/full/3518234.jpg?width=2078&height=1169)
+
+[Lab Report Full Link](https://cnsquared.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+
+[Lab Report Just File](lab-report-1-week-2.html)
+
+[Lab Report Just File .md](lab-report-1-week-2.md)
