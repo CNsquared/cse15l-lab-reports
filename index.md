@@ -6,7 +6,7 @@ Hello World!
 **because they also use markdown**
 ***Isnt that crazy***
 
-[Test Page](https://cnsquared.github.io/cse15l-lab-reports/TestFile.html)
+[Test Page](https://cnsquared.github.io/cse15l-lab-reports/testFile.html)
 
 >who knew you could do so much
 >yep real crazy
