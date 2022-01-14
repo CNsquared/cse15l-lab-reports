@@ -8,7 +8,7 @@
 1) **Installing VScode**\
 For this course we will be using VScode so lets first download it. - [VSCode Download](https://code.visualstudio.com/download)
 
-    ![Image](Images-Lab-Report-1\VSCode.png)
+    ![Image](cse15l-lab-reports/Images-Lab-Report-1/VSCode.png)
 
 
 
