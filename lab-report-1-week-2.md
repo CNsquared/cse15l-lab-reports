@@ -8,7 +8,7 @@
 1) **Installing VScode**\
 For this course we will be using VScode so lets first download it. - [VSCode Download](https://code.visualstudio.com/download)
 
-    ![Image](VSCode.png)
+    ![Image](..\VSCode.png)
 
 
 
@@ -36,12 +36,17 @@ First you will need your sources specific account login - [Find it here](https:/
     * ls -lat
     * ls -a
 
+    **EX**  
+
+    ![Image](ls-a.png)
+
 4) **Moving Files with scp**\
     Next you'll practice transfering your files from the local machine to the remote machine
     *Remember to log out of the remote machine with crtl + d*
     Now from your local machine use the following command to send a file of your chosing
     >scp fileName.fileExtension cs15lwi22zz@ieng6.ucsd.edu:~/
 
+    ![Image](scp.png)
     The ~/ sends the file to the default directory on the recieving machine
 
 5) **Setting an SSH Key**
