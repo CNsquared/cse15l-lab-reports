@@ -15,7 +15,7 @@ For this course we will be using VScode so lets first download it. - [VSCode Dow
 2) **Remotely Connecting**\
 First you will need your sources specific account login - [Find it here](https://sdacs.ucsd.edu/~icc/index.php)
 
-    ![Image](AccountLookup.png)
+    ![Image](Images-Lab-Report-1\AccountLookup.png)
 
     Next you should open up the terminal in VScode  
 
@@ -25,7 +25,7 @@ First you will need your sources specific account login - [Find it here](https:/
 
     Next you'll have to enter your password 
 
-    ![Image](Login.png)
+    ![Image](Images-Lab-Report-1/Login.png)
 
 
 3) **Run Some Commands**
