@@ -8,14 +8,14 @@
 1) **Installing VScode**\
 For this course we will be using VScode so lets first download it. - [VSCode Download](https://code.visualstudio.com/download)
 
-    ![Image](cse15l-lab-reports/Images-Lab-Report-1/VSCode.png)
+    ![Image](VSCode.png)
 
 
 
 2) **Remotely Connecting**\
 First you will need your sources specific account login - [Find it here](https://sdacs.ucsd.edu/~icc/index.php)
 
-    ![Image](Images-Lab-Report-1\AccountLookup.png)
+    ![Image](AccountLookup.png)
 
     Next you should open up the terminal in VScode  
 
@@ -25,7 +25,7 @@ First you will need your sources specific account login - [Find it here](https:/
 
     Next you'll have to enter your password 
 
-    ![Image](Images-Lab-Report-1\Login.png)
+    ![Image](Login.png)
 
 
 3) **Run Some Commands**
@@ -38,7 +38,7 @@ First you will need your sources specific account login - [Find it here](https:/
 
     **EX**  
 
-    ![Image](Images-Lab-Report-1\ls-a.png)
+    ![Image](ls-a.png)
 
 4) **Moving Files with scp**\
     Next you'll practice transfering your files from the local machine to the remote machine
@@ -46,7 +46,7 @@ First you will need your sources specific account login - [Find it here](https:/
     Now from your local machine use the following command to send a file of your chosing
     >scp fileName.fileExtension cs15lwi22zz@ieng6.ucsd.edu:~/
 
-    ![Image](Images-Lab-Report-1\scp.png)
+    ![Image](scp.png)
     The ~/ sends the file to the default directory on the recieving machine
 
 5) **Setting an SSH Key**
