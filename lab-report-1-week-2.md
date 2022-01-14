@@ -42,7 +42,9 @@ First you will need your sources specific account login - [Find it here](https:/
 
 4) **Moving Files with scp**\
     Next you'll practice transfering your files from the local machine to the remote machine
+
     *Remember to log out of the remote machine with crtl + d*
+
     Now from your local machine use the following command to send a file of your chosing
     >scp fileName.fileExtension cs15lwi22zz@ieng6.ucsd.edu:~/
 
@@ -50,5 +52,22 @@ First you will need your sources specific account login - [Find it here](https:/
     The ~/ sends the file to the default directory on the recieving machine
 
 5) **Setting an SSH Key**
+    SSH keys remove the requirment to enter your password everytime you want to ssh into a specific remote server
+
+    A public and private key pair is created and the remote server is given the public key
+
+    * First you must set up the ssh key on your local machine
+    ![Image](SSHkey.png)
+
+    * Next you will scp the public key from where you saved it on your local machine to the remote machine
+    >scp **Where ever you saved the public key** cs15lwi22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
 
 6) **Optimizing Remote Running**
+    To optimize your experience you can use some short cuts
+    >ssh cs15lwi22zz@ieng6.ucsd.edu "ls"
+    That will login you in then run whatever command is in "" then log out
+    ![Image](SSHQ.png)
+
+    You can also run multple commands on one line by sseperating them with semi colons
+    > ssh cs15lwi22zz@ieng6.ucsd.edu "ls"; javac WhereAmI.java; java WhereAmI
+    ![Image](Multiple.png)
