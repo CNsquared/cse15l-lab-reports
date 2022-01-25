@@ -5,7 +5,7 @@
 
 ## How to log into a course-specific account on ieng6
 
-### 1) **Installing VScode**\
+### 1) **Installing VScode**
 For this course we will be using VScode so lets first download it. - [VSCode Download](https://code.visualstudio.com/download)
 
 
@@ -13,7 +13,7 @@ For this course we will be using VScode so lets first download it. - [VSCode Dow
 
 
 
-### 2) **Remotely Connecting**\
+### 2) **Remotely Connecting**
 First you will need your sources specific account login - [Find it here](https://sdacs.ucsd.edu/~icc/index.php)
 
 ![Image](Images/Lab-1/AccountLookup.png)
@@ -46,7 +46,7 @@ Try inputing some of the following commands into the terminal
 
 ![Image](Images/Lab-1/ls-a.png)
 
-### 4) **Moving Files with scp**\
+### 4) **Moving Files with scp**
 Next you'll practice transfering your files from the local machine to the remote machine
 
 *Remember to log out of the remote machine with crtl + d*
@@ -72,13 +72,13 @@ A public and private key pair is created and the remote server is given the publ
     scp **Where ever you saved the public key** cs15lwi22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
 
-### ) **Optimizing Remote Running**
+### **Optimizing Remote Running**
 To optimize your experience you can use some short cuts
 ```
     ssh cs15lwi22zz@ieng6.ucsd.edu "ls"
 ```
 
-That will login you in then run whatever command is in "" then log out
+That will login you in then run whatever command is in " " then log out
 ![Image](Images/Lab-1/SSHQ.png)
 
 You can also run multple commands on one line by seperating them with semi colons
@@ -86,3 +86,11 @@ You can also run multple commands on one line by seperating them with semi colon
     ssh cs15lwi22zz@ieng6.ucsd.edu "ls"; javac WhereAmI.java; java WhereAmI
 ```
 ![Image](Images/Lab-1/Multiple.png)
+
+While editing a local file then compling it and uploading it on a remote device may seem like it takes a lot of commands it can actually be done in just 2 keystrokes. After you type it the frist time (or copy and paste) you can upload the changes you made, compile and run them but just recalling your last command in the terminal with the up arrow and then hitting enter
+
+```
+scp WhereAmI.java  cs15lwi22aoj@ieng6.ucsd.edu:~/; ssh cs15lwi22aoj@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
+```
+![Image](Images/Lab-1/CompressedCommandLine.png)
+
