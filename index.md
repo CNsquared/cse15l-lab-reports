@@ -4,6 +4,7 @@
 **Lab Reports**
 
 [Lab Report One](lab-report-1-week-2.md)
+[Lab Report Two](lab-report-2-week-4.md)
 
 [Test Page](https://cnsquared.github.io/cse15l-lab-reports/testFile.html)
 
