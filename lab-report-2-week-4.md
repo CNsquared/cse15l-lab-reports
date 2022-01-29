@@ -30,7 +30,7 @@ The bug was that when there was text following a set of links the program would 
 ![Image](Images/Lab-2/failure2.png)
 
 ### Explanation
-The bug was that when there was brackets in a file but no actual links then the program would look for open and close parenethesis an find none. This would make openParen and closeParen equal to -1 and when the program tried to substring between the open and close parenthesis it would have the symptomn of an index out of bound error. To fix this I added an if statement that if no open parenthesis is found than the while loop is broken.
+The bug was that when there was brackets in a file and then next following the brackets on another line then the program would look for open and close parenethesis and find none. This would make openParen and closeParen equal to -1 and when the program tried to substring between the open and close parenthesis it would have the symptomn of an index out of bound error. To fix this I added an if statement that if no open parenthesis is found than the while loop is broken.
 
 
 ## Change 3
@@ -39,10 +39,10 @@ The bug was that when there was brackets in a file but no actual links then the 
 ![Image](Images/Lab-2/CodeChange2&3.png)
 
 ### Failure-inducing input
-[Test File 2](Files/test-file4.md)
+[Test File 3](Files/test-file4.md)
 
 ### Symptom
 ![Image](Images/Lab-2/failure3.png)
 
 ### Explanation
-The bug was that when there was brackets in a file and text following the brackets but no actual links then the program would look for open and close parenethesis an find none. This would make openParen and closeParen equal to -1 and when the program tried to substring between the open and close parenthesis it would have the symptomn of an index out of bound error. To fix this I added an if statement that if no open parenthesis is found than the while loop is broken.
+This bug was very similar to the bug found in change 2 and was actually solved by the same change. The bug was that when there was brackets in a file and text following the brackets but no actual links then the program would look for open and close parenethesis an find none. This would make openParen and closeParen equal to -1 and when the program tried to substring between the open and close parenthesis it would have the symptomn of an index out of bound error. To fix this I added an if statement that if no open parenthesis is found than the while loop is broken.
