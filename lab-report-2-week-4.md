@@ -24,7 +24,7 @@ The bug was that when there was text following a set of links the program would 
 ![Image](Images/Lab-2/CodeChange2&3.png)
 
 ### Failure-inducing input
-[Test File 2](Files/test-file3.md)
+[Test File 3](Files/test-file3.md)
 
 ### Symptom
 ![Image](Images/Lab-2/failure2.png)
@@ -39,7 +39,7 @@ The bug was that when there was brackets in a file and then next following the b
 ![Image](Images/Lab-2/CodeChange2&3.png)
 
 ### Failure-inducing input
-[Test File 3](Files/test-file4.md)
+[Test File 4](Files/test-file4.md)
 
 ### Symptom
 ![Image](Images/Lab-2/failure3.png)
