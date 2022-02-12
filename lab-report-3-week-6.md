@@ -13,11 +13,11 @@ This allows easier access to the servers by using a nickname for the severs inst
 I used vs code to write out the necessary code then transferred it into the .ssh directory on my local machine
 
 ### ssh command 
-![Image](Images/Lab-2/sshCommand.png)
+![Image](Images/Lab-3/sshCommand.png)
 
 I was succesfully able to login into the ieng6 servers by using the host name
 
 ### scp command 
-![Image](Images/Lab-2/scpCommand.png)
+![Image](Images/Lab-3/scpCommand.png)
 
 I was also able to successfully scp a file into ieng6 using its host name
