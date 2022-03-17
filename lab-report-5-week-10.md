@@ -25,6 +25,10 @@ This means for my markdownParse it doesn't pick up anything while the implementa
 A potential fix for this is to take into account markdown variables. This could be done by saving a varible to an array when varible syntax is found and then checking for that variable in the text file as well
 
 
+This is the section of code for the given implementation where the fix could be implemented. The code would also look for markdown variable syntax
+![Code in Given](Images/Lab-5/Screen%20Shot%202022-03-17%20at%2011.02.56%20AM.png)
+
+
 ### Test Case Difference #2
 #### Test case 201
 There was a difference in outputs on test case 201
@@ -36,3 +40,6 @@ My implementation appears to be correct because vscodes's preview shows no links
 
 The lab 9 implementation innocorrectly pulled the text in the () as a link
 A potential fix for this is to take into account the text in between the [] and () found in parse. It could find the location of [] then the nearest () and then look at the text in between, if any
+
+This is the section of code for the given implementation where the fix could be implemented. The code would look ibetween the "]" and "("
+![Code Given](Images/Lab-5/Screen%20Shot%202022-03-17%20at%2011.04.27%20AM.png)
